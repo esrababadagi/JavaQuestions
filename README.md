@@ -2,26 +2,15 @@
 
 ## Question 1 Find Duplicate =>
 
-//Ask user to type a name,
-//
-//the length of name should be 3.
-//
-//Then check if the name has same characters.
-//
-//If the String has same characters
-//
-//Print “String has duplicate characters”
-//Else
-//
-//Print “String has unique characters”
-//
-//Please use ternary.
-//
-//
-//Input :
-//
-//ala
-//
-//OutPut:
-//
-//String has duplicate characters
+      /*
+        Ask user to enter a name and a character,
+        then check how many times the character is repeated in the name using loops in the name
+
+       e.g:
+
+      char ch1= 'a' ;
+
+      String name =“John came late"
+
+      Expected Output: Number of a = 2
+         */
