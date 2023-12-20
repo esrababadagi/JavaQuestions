@@ -13,7 +13,11 @@ public class Q2_SwapNumbers {
         int a = input.nextInt();
         System.out.println("Please enter second number");
         int b = input.nextInt();
-
-
+        System.out.println("Before swapping=> first number: "+a +" and second number "+b);
+        int c = 0;
+        c=a;
+        a=b;
+        b=c;
+        System.out.println("After swapping=> first number: "+a +" and second number "+b);
     }
 }
