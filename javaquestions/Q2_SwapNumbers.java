@@ -10,11 +10,11 @@ public class Q2_SwapNumbers {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter first number");
-        int a = input.nextInt();
+        double a = input.nextDouble();
         System.out.println("Please enter second number");
-        int b = input.nextInt();
+        double b = input.nextDouble();
         System.out.println("Before swapping=> first number: "+a +" and second number "+b);
-        int c = 0;
+        double c = 0;
         c=a;
         a=b;
         b=c;
