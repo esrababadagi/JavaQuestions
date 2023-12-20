@@ -1,3 +1,5 @@
+package javaquestions;
+
 import java.util.Scanner;
 
 public class Q1_FindDuplicate {
