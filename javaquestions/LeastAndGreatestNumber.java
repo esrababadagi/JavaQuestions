@@ -1,6 +1,7 @@
 package javaquestions;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class LeastAndGreatestNumber {
@@ -17,6 +18,15 @@ public class LeastAndGreatestNumber {
         prices2.add("$54.45");
 
         List<Double> pricesDouble = new ArrayList<>();
+
+        for (String w : prices2) {
+            Double price2 = Double.valueOf(w.replace("$", ""));
+            pricesDouble.add(price2);
+        }
+        Collections.sort(pricesDouble);
+
+        double sum22 = pricesDouble.get(0) + pricesDouble.get(pricesDouble.size() - 1);
+        System.out.println(sum22);
 
     }
 }
