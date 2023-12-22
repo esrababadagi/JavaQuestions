@@ -16,6 +16,7 @@ public class LeastAndGreatestNumber {
         prices2.add("$23.60");
         prices2.add("$54.45");
 
+        List<Double> pricesDouble = new ArrayList<>();
 
     }
 }
