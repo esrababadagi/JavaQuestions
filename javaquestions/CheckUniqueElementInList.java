@@ -26,5 +26,11 @@ public class CheckUniqueElementInList {
                 }
             }
         }
+
+        if (counter == myList22.size()) {
+            System.out.println("All elements are unique");
+        } else {
+            System.out.println("There are some repeated elements");
+        }
     }
 }
