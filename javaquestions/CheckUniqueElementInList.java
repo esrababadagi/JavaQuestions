@@ -17,5 +17,14 @@ public class CheckUniqueElementInList {
         myList22.add(7);
         myList22.add(12);
         myList22.add(23);
+
+        int counter = 0;
+        for (int w : myList22) {
+            for (int k : myList22) {
+                if (w == k) {
+                    counter++;
+                }
+            }
+        }
     }
 }
